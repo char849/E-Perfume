@@ -1,7 +1,8 @@
 import { resolve } from 'path'
 
 export default ({
-  root: resolve(__dirname, 'src'),  
+  base: "/E-Perfume/",
+  root: resolve(__dirname, 'src'),
   build: {
     outDir: '../dist'
   },
