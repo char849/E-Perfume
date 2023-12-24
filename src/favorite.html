@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="scss/all.scss" />        
+    <title>香水電商</title>
+  </head>
+  <body>    
+    <nav class="navbar sticky-top shadow-sm bg-white navbar-expand-md navbar-light pb-0 pt-1 pb-lg-0 pt-lg-0">
+      <div class="container pe-0 ps-0">
+        <a href="index.html" class="navbar-brand bt-4 ps-3 pe-6 ps-lg-0"> 
+          <img src="./img/d’Perfume@2x.png" width="128" alt="logo"/>
+        </a>
+        
+          <div class="position-relative">
+            <span
+              class="material-icons align-bottom fs-1 text-dark d-block d-md-none"
+            >
+              shopping_cart
+            </span>
+            <span
+              class="position-absolute px-2 top-0 start-100 translate-middle badge rounded-pill text-white bg-primary d-block d-md-none"
+            >
+              3
+            </span>
+          </div>
+        </a>
+        <button
+          class="navbar-toggler border-0 pe-4 pe-lg-0"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <img src="./img/bars.svg" />
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav mt-2 mt-lg-0">
+            <li class="nav-item">
+              <a href="index.html" 
+                class="nav-link mx-lg-2 mx-0 d-flex justify-content-center py-3 border-white border-bottom"
+                aria-current="page"
+                href="products.html"
+              >
+                <span class="material-icons align-bottom d-none d-md-block">
+                  store
+                </span>
+                Product</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link mx-lg-2 mx-0 d-flex justify-content-center py-3 border-white border-bottom"
+                href="#"
+              >
+                <span class="material-icons align-bottom d-none d-md-block">
+                  person
+                </span>
+                log in</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="active nav-link mx-lg-2 mx-0 d-flex justify-content-center py-3 border-white border-bottom"
+                href="favorite.html"
+              >
+                <span class="material-icons align-bottom d-none d-md-block">
+                  favorite
+                </span>
+                Wishlist</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link ms-lg-2 ms-lg-0 mx-0 d-flex justify-content-center py-3"
+                href="#"
+              >
+                <span class="material-icons align-bottom d-none d-md-block">
+                  shopping_cart
+                </span>
+                Cart(3)</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>       
+    <div class="container-fluid bg-primary">
+      <div class="container px-2">
+        <ul class="category d-flex fs-5 list-unstyled m-0 gap-5 overflow-x-auto">
+          <li class="text-white py-3 text-nowrap fw-bold">我的收藏</li>          
+        </ul>
+      </div>
+    </div>
+
+    <div class="container py-5">
+      <div class="row g-4" id="favoritesList">        
+                      
+      </div>
+    </div>   
+
+    <footer class="bg-primary py-4">
+      <div class="container">
+        <div class="copyright">
+            <div class="row">
+                <div class="col-12 col-md-8 text-center text-md-start mb-3 mb-md-0">
+                  <img src="img/d’Perfumew@2x.png" width="128" alt="logo">
+                  <small class="text-white ms-3">© 2020. All Rights Reserved.</small>
+                </div>
+                <div class="col-12 col-md-4 text-center text-md-end">
+                    <div class="link list-unstyled d-flex fs-5 text-white mb-0">
+                      <a href="#" class="text-decoration-none"><li class="ms-5 text-white">Product</li></a>
+                      <a href="#" class="text-decoration-none"><li class="ms-5 text-white">Blog</li></a>
+                      <a href="#" class="text-decoration-none"><li class="ms-5 text-white">Contact</li></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+      
+    </footer>    
+    <script type="module" src="./js/favorite.js"></script>   
+    <script type="module" src="./js/main.js"></script>                      
+  </body>
+</html>
