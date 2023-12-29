@@ -15,10 +15,10 @@ const categoryLinks = document.querySelectorAll(".category a");
 function init() {    
   console.log('Init function called');
   // 從 localStorage 中檢索 favoriteList
-  const storedFavoriteList = JSON.parse(localStorage.getItem('homeFavorite'));
-  if (storedFavoriteList) {
-    favoriteList = storedFavoriteList;
-  }
+  // const storedFavoriteList = JSON.parse(localStorage.getItem('homeFavorite'));
+  // if (storedFavoriteList) {
+  //   favoriteList = storedFavoriteList;
+  // }
   getProductList();     
 }
 init();

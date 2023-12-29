@@ -1,5 +1,4 @@
 import "https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js";
-import "https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js";
 import { swalFn } from '../js/sweetalert2';
 
 const baseUrl = "https://vue3-course-api.hexschool.io/v2";
@@ -96,7 +95,7 @@ function toggleFavorite(itemId, callback) {
 }
 
 // 在頁面加載時顯示收藏列表
-window.onload = function () {
+function init() { 
   displayFavorites();
   // 綁定點擊事件
   document.addEventListener("click", function (event) {
@@ -109,3 +108,4 @@ window.onload = function () {
     }
   });
 };
+init();
